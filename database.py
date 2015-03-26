@@ -2,7 +2,7 @@
 import sqlite3 as lite
 import pandas as pd
 
-input = str(raw_input("Name you city: "))
+input = str(raw_input("Name your city: "))
 
 cities = ((input, 'NV'),
                     ('Atlanta', 'GA'))
