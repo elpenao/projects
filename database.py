@@ -2,10 +2,12 @@
 import sqlite3 as lite
 import pandas as pd
 
-cities = (('Las Vegas', 'NV'),
+input = str(raw_input("Name you city: "))
+
+cities = ((input, 'NV'),
                     ('Atlanta', 'GA'))
 
-weather = (('Las Vegas', 2013, 'July', 'December'),
+weather = ((input, 2013, 'July', 'December'),
                      ('Atlanta', 2013, 'July', 'January'))
 
 
